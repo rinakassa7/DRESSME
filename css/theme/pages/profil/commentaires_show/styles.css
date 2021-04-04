@@ -1,0 +1,16 @@
+.section-commentaires{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.commentaire-text{
+    margin-bottom: 10px;
+}
+
+.liste-commentaires{
+    text-align: center;
+    margin-top: 50px;
+}

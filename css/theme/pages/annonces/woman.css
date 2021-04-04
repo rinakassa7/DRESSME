@@ -1,0 +1,36 @@
+.top-middle-content{
+    background-image : url('../../../../assets/images/annonces/woman/woman-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    animation-name: background-image-change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: background 0.2s ease-in-out;    
+
+    
+}
+
+
+@keyframes background-image-change{
+    
+    25%{
+        background-image: url('../../../../assets/images/annonces/woman/woman-2.jpg') no-repeat center center fixed;
+        background-size: cover;
+        
+    }
+    
+    50%{
+        background-image : url('../../../../assets/images/annonces/woman/woman-3.jpg') no-repeat center center fixed;
+        background-size: cover;
+        
+    }
+    
+    75%{
+        background-image: url('../../../../assets/images/annonces/woman/woman-4.jpg') no-repeat center center fixed;
+        background-size: cover;
+
+    }
+
+
+
+}

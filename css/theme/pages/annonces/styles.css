@@ -1,0 +1,21 @@
+.image-objet{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.image-objet img{
+    max-height: 80vh;
+    margin-top: 50px;
+    width:100%;
+}
+
+.annonces-liste  {
+    text-align: center;
+    color: #222;
+}
+
+.annonces-liste section {
+    padding-bottom: 20px;
+}
+
+

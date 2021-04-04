@@ -1,0 +1,19 @@
+@media screen and (max-width: 1100px) {
+
+    .header-top-nav{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+    }
+    .header-top-nav-ul-left{
+        display: none;
+    }
+    .header-top-nav-ul-middle li{
+        display: inline-block;
+    }
+    
+    .header-top a li{
+        font-size: 1em;
+    }
+  
+
+}

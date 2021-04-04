@@ -1,0 +1,69 @@
+:root{
+    --gold  :  #b8895b;
+    --white :   #ffffff; 
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+.header-top{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #222;
+    border-bottom: 1px solid var(--gold);
+}
+
+.header-top .header-top-nav-ul-left-title{
+    color: var(--gold);
+}
+
+.header-top-nav-title{
+    padding: 10px;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+.header-top-nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    text-align: center;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+
+.header-top-nav ul a{
+    font-weight: bold;
+    color: var(--gold);
+    text-transform: uppercase;
+}
+
+
+.header-top-nav-ul-right{
+    text-align: left;
+}
+
+.header-top-nav ul li{
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.header-top-nav-ul-left-title{
+    font-size: 20px !important;
+}
+
+.sticky{
+    background-color: #222;
+    border-bottom: 1px solid var(--gold);
+    color: #222;
+}
+.sticky a{
+    color: #222;
+}
+
+.header-top-nav ul a:hover li{
+    color: white;
+}
+
+
+  

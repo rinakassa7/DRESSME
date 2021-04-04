@@ -1,0 +1,78 @@
+:root{
+    --gold : #b8895b;
+}
+body{
+    background: url('../../../../assets/images/annonces/kids/kids-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.left-login-aside{
+    background-color: #222;
+    width: 25%;
+    min-width: 300px;
+    height: 96vh;
+}
+
+.left-login-aside{
+    display: flex;
+    justify-content: center;
+}
+.left-login-aside-article{
+    padding-top: 15vh;
+    display: block;
+}
+.left-login-aside-header{
+    color: var(--gold);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.left-login-aside-form input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.left-login-aside-form input[type=text],input[type=password]{
+    height: 25px;    
+    width: 200px;
+}
+
+.left-login-aside-form select,option{
+
+    background-color: #222;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 1px solid var(--gold);
+    margin-bottom: 20px;
+    height: 20px;
+    width: 100px;
+
+}
+
+.button{
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid var(--gold);
+    color: white;
+    padding: 15px 30px;
+}
+.button:hover{
+    background-color: white;
+    color: #222;
+}
+
+.error-message{
+    text-align: center;
+    background-color : rgba(255, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.succes-message{
+    text-align: center;
+    background-color : rgba(0, 255, 0, 0.5);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+

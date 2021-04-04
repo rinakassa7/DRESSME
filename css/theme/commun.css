@@ -1,0 +1,66 @@
+@import url("https://use.typekit.net/mua4slj.css"); 
+
+:root{
+    --gold :  #b8895b;
+    --white : #fff;
+}
+
+*{
+    margin  : 0;
+    padding : 0;
+    transition-duration : 1s;
+    font-family: bebas-neue-pro-semiexpanded, sans-serif; 
+
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-position: none;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.top-middle-content{
+    margin-top: -50px;
+    text-align: center;
+    height: 100vh;
+}
+
+.top-middle-content-title{
+    padding-top: 35vh;
+    color  : var(--gold);
+    text-transform: uppercase;
+    font-size: 5em;
+}
+
+
+.main-content{
+    background-color: var(--white);
+} 
+
+.main-content .main-content-title
+{
+    color: var(--gold);
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.button{
+    background-color: #222;
+    text-transform: uppercase;
+    color: darkgoldenrod;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+
+}
+
+
+.annonce-section{
+    border-bottom: 1px solid #222;
+}

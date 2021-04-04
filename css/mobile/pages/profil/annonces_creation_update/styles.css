@@ -1,0 +1,17 @@
+@media screen and (max-width: 1100px) {
+
+    .annonces-form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .annonces-form form{
+        display: block;
+        width: 80%;
+    }
+    
+    .annonces-form form textarea{
+        width: 100%;
+    }
+  
+  }

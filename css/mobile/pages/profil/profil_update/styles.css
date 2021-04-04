@@ -1,0 +1,11 @@
+
+@media screen and (max-width: 600px) {
+
+    .update-form{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 200px;
+    }
+
+  
+  }

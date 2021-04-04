@@ -1,0 +1,37 @@
+body{
+    background: url('../../../../assets/images/annonces/kids/kids-1.jpg')  no-repeat center center fixed;
+
+    background-size: cover;
+    animation-name: background-image-change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    
+}
+
+
+@keyframes background-image-change{
+
+    25%{
+        background: url('../../../../assets/images/annonces/kids/kids-2.png') no-repeat center center fixed;
+        background-size: cover;
+        
+    }
+    
+    50%{
+        background: url('../../../../assets/images/annonces/kids/kids-3.png') no-repeat center center fixed;
+        background-size: cover;
+        
+    }
+    
+    75%{
+        background: url('../../../../assets/images/annonces/kids/kids-4.jpg') no-repeat center center fixed;
+        background-size: cover;
+
+    }
+
+
+
+}

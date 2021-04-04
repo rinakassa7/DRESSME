@@ -1,0 +1,138 @@
+:root{
+    --white : #fff;
+    --gold  : #b8895b;
+}
+
+body{
+    background: url('../../../../assets/images/home/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.main-content .article{
+
+    border-top       : 3px solid var(--gold);
+    background-color : #fff;
+    color            : #000;
+    height           : auto;
+    width            : 100%;
+
+}
+
+.main-content .section{
+
+    display: grid;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    font-size: 10px;
+
+}
+
+.main-content .right-section{
+
+   grid-template-columns: 2fr 1fr;
+
+}
+
+.main-content .right-section .img-box{
+   margin-right: 20px;
+
+}
+
+.main-content .left-section .img-box{
+    margin-left: 20px;
+ 
+ }
+
+.main-content .left-section{
+
+   grid-template-columns: 1fr 2fr;
+
+}
+
+.main-content #second-article,#fourth-article{
+
+    color: white;
+    background-color: #222;
+
+}
+
+
+.article .section-content-title{
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: var(--gold);
+}
+
+.article .section-content-text{
+    font-size: 30px;
+}
+
+.article .section-content-footer{
+    margin-top: 50px;
+}
+
+.article .section-content-footer a{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+}
+.article .section-content-footer a:hover{
+
+    background-color: #222;
+    border: 2px solid var(--gold);
+    color: var(--gold);
+}
+
+
+.top-middle-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+}
+
+.top-middle-content-annonces{
+    margin-top: 35vh;
+    padding-left: 10%;
+    color: var(--white);
+}
+
+.top-middle-content-annonces header{
+    margin-bottom: 10px;
+}
+.top-middle-content-annonces section{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.top-middle-content-annonces footer{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 30px 20px;
+}
+
+.top-middle-content-annonces a{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--white);
+    border: 1px solid var(--gold);
+}
+
+.top-middle-content-annonces a:hover{
+    background-color: white;
+    color: #222;
+}
+
+
+

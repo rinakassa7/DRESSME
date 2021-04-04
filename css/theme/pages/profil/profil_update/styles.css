@@ -1,0 +1,13 @@
+.update-form{
+    margin-right: auto;
+    margin-left: auto;
+    width: 150px;
+}
+.update-form *{
+    width: auto;
+
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}

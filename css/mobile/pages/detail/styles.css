@@ -1,0 +1,46 @@
+@media screen and (max-width: 1050px) {
+
+    .img-section{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .annonce-detail .img-box img{
+
+        width: 100%;
+    
+    }
+
+    .annonce-detail .img-box{
+
+        width: 70%;
+    
+    }
+
+    .annonce-commentaires *{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+  
+  }
+
+  @media screen and (max-width: 800px) {
+
+
+
+    .annonce-detail .img-box img{
+
+        width: 100%;
+    
+    }
+
+    .annonce-detail .img-box{
+
+        width: 80%;
+    
+    }
+  
+  }
